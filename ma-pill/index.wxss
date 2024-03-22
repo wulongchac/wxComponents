@@ -1,0 +1,141 @@
+
+@import "../../src/fonts/iconfont.wxss";
+.ma-pill{
+  line-height: 35px;
+  padding: 8px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+.ma-pill.border-bot{
+  border-bottom: 5px solid #f2f2f2;
+}
+.ma-pill-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding-right: 20px;
+  box-sizing: border-box;
+  min-height: 20px;
+}
+.ma-pill-leftTitle{
+  width: 70%;
+  padding-left: 20px;
+}
+.ma-pill-title{
+  font-size: 16px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ma-pill-fonticon{
+  position: absolute;
+  left: 10px;
+}
+.ma-pill-rtext{
+width:50%;
+font-size:16px;
+text-overflow:ellipsis;
+overflow:hidden;
+white-space:nowrap;
+text-align:right;
+color:#3C9FFF;
+
+}
+.ma-pill-right{
+  position: absolute;
+  right: 10px;
+  color:#7B7979;
+
+}
+.ma-pill-img{
+  position: absolute;
+  left: 10px;
+  width: 35px;
+  height: 35px;
+  top: 8px;
+  border-radius: 50%;
+}
+.ma-pill-img-mode .ma-pill-leftTitle {
+  padding-left: 50px;
+}
+.noLeftIcon .ma-pill-leftTitle{
+  padding-left: 0;
+}
+.ma-pill-cite{
+  font-size: 10px;
+  border: 1px solid #B71C1C;
+  color: #B71C1C;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.noBorder.ma-pill.border-bot{
+  border: none;
+}
+.color-red{
+  color:#f44;
+}
+.titleFull .ma-pill-leftTitle{
+  width: 100%;
+}
+/*
+.ma-pill-rtext{
+  font-size: 8px;
+}
+.ma-pill-icon,.ma-pill-img{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
+  font-size: 0;
+}
+.ma-pill-text{
+  font-size: 14px;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ma-pill-textlong{
+  font-size: 14px;
+
+}
+.ma-pill-right{
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+
+}
+.ma-pill-tag{
+  font-size: 8px;
+  border: 1px solid #f44;
+  color: #f44;
+  height: 15px;
+  line-height: 15px;
+  padding: 0 5px;
+  box-sizing: border-box;
+}
+.ma-pill-fonticon{
+  margin-right:10px; 
+}
+.ma-input{
+  font-size: 12px;
+  border-bottom: 1px solid #f2f2f2;
+  width: 100%;
+}
+.ma-pill-min{
+  font-size: 10px;
+  height: 15px;
+  line-height: 15px;
+  width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.ma-inline-block{
+  display: inline-block;
+}
+*/

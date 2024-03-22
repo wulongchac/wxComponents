@@ -1,0 +1,20 @@
+<view
+        class="pop {{ isShow ? 'pop-show' : '' }}"
+>
+    <view
+            class="pop-mask "
+            bindtap="hide"
+
+    ></view>
+    <view class="pop-container" >
+        <view class="pop-title">{{title}}</view>
+        <view class="pop-msg">{{msg}}</view>
+        <view class="pop-img">
+            <image class='item-left-img'  mode="aspectFill" src="{{imgUrl}}"></image>
+        </view>
+        <view class="pop-btns">
+            <view class="pop-left-btn pop-btn" bindtap="hide">{{leftBtn}}</view>
+            <view class="pop-right-btn pop-btn" bindtap="submit">{{rightBtn}}</view>
+        </view>
+    </view>
+</view>

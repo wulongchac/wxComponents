@@ -1,0 +1,38 @@
+
+.paddings{
+  padding: 0 30rpx;
+}
+.ma-btn-main{
+  background: #E73D3D;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10rpx;
+}
+.ma-btn-text{
+  font-size: 36rpx;
+  color: #FBFBFB;
+}
+/*******
+灰色主题
+ */
+.ma-btn.gray .ma-btn-main{
+  background: #EDEDED;
+}
+.ma-btn.gray .ma-btn-text{
+  color: #ABABAB;
+}
+
+/*******
+边框主题
+ */
+.ma-btn.borders .ma-btn-main{
+  background: none;
+  border:1rpx solid  #9C9C9C;
+  box-sizing: border-box;
+}
+.ma-btn.borders  .ma-btn-text{
+  color: #202020;
+}
+

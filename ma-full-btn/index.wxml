@@ -1,0 +1,9 @@
+
+<view 
+  class="ma-btn  {{ paddings ? 'paddings' : '' }}    {{ types ? types : '' }}  "
+  bindtap="handleTap"
+>
+  <view class="ma-btn-main">
+    <view class='ma-btn-text'>{{content}}</view>
+  </view>
+</view>
