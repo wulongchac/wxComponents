@@ -1,0 +1,5 @@
+<view class="tips {{ isShow ? 'tips-show' : '' }}" >
+    <view class="tips-in">
+        {{ content }}
+    </view>
+</view>

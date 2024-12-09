@@ -1,0 +1,11 @@
+<view class='scroll-container' >
+  <scroll-view 
+        scroll-y 
+        class='selectionMainScroll' 
+        style="height:{{srollHeight}}px"
+        bindscrolltolower='loadMore'
+        scroll-top='{{listScrollTop}}'
+  >
+      <slot></slot>
+  </scroll-view>
+</view>

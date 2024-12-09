@@ -1,0 +1,24 @@
+
+<view 
+  class="ma-pill border-bot {{imgSrc ? 'ma-pill-img-mode' : ''}} {{(!imgSrc && !iconName) ? 'noLeftIcon' : ''}}  {{noBorder ? 'noBorder' : ''}}  {{titleFull ? 'titleFull' : ''}}  {{heightAuto ? 'heightAuto' : ''}}" 
+  bindtap="handleTap"
+>
+  <view class='ma-pill-left'>
+    <view class='ma-pill-leftTitle'>
+      <view wx:if="{{iconName}}" class='ma-pill-fonticon  icon iconfont {{iconName}}'></view>
+      <image  wx:if="{{imgSrc}}"  class='ma-pill-img' mode="aspectFill" src="{{imgSrc}}"></image>
+      <view class='ma-pill-title'>{{title}}</view>
+    </view>
+    <view  class=' ma-pill-rtext' wx:if="{{subTitle}}">{{subTitle}}</view>
+    <view  class=' ma-pill-cite' wx:if="{{cite}}">{{cite}}</view>
+  </view>
+  <view wx:if="{{rightIcon}}" class='ma-pill-right  icon iconfont icon-xiangyou' ></view>
+</view>
+  
+  
+    <!-- 
+  <ma-pill bind:pillClick="goToDiveCenter" imgSrc="{{avatar}}" iconName="" title="我的订单" subTitle="" />
+    <ma-pill  title="优惠信息" cite="{{discount}}" rightIcon="{{false}}" />
+    <ma-pill  title="抢气瓶活动" cite="{{startGettingTime}}"  /> 
+    <ma-pill bind:pillClick="goToDiveCenter" noBorder="{{true}}" imgSrc="{{avatar}}" iconName="" title="{{name}}" subTitle="" />
+    -->
